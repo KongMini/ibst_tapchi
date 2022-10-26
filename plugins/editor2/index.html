@@ -1,0 +1,55 @@
+<html>
+<head>
+
+
+<style>
+	.body{
+		width: 80%;
+		max-width:800px;
+		margin: 0 auto;
+	}
+</style>
+</head>
+
+
+
+<body>
+	<div class="body">
+	<textarea id="edit"></textarea>
+	</div>
+	
+	<script src="ckeditor/ckeditor.js"></script>
+	<script src="ckfinder/ckfinder.js"></script>
+	<script>
+		ClassicEditor
+	.create( document.querySelector( '#edit' ), {
+		ckfinder: {
+			uploadUrl: 'ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files&responseType=json',
+		},
+		toolbar:{
+			  items: [
+				'ckfinder',
+				'heading', '|',
+				'alignment', '|',
+				'bold', 'italic', 'strikethrough', 'underline', 'subscript', 'superscript', '|',
+				'link', '|',
+				'bulletedList', 'numberedList', 'todoList',
+				'-', // break point
+				'fontfamily', 'fontsize', 'fontColor', 'fontBackgroundColor', '|',
+				'code', 'codeBlock', '|',
+				'insertTable', '|',
+				'outdent', 'indent', '|',
+				'uploadImage', 'blockQuote', '|',
+				'undo', 'redo',
+			],
+		
+		} 
+	} )
+	.catch( error => {
+		console.error( error );
+	} );
+
+			//console.log("aaaaaaaaaa");
+	</script>
+</body>
+</html>

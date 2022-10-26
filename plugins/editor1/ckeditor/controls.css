@@ -1,0 +1,160 @@
+﻿#cmsEditor {
+    width: 500px;
+    float: left;
+}
+
+.mce-flow-layout {
+    margin: 0 auto;
+}
+
+#editable {
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.img-cropper img {
+    /*width: 600px;
+            height: 315px;*/
+    max-width: 100%;
+}
+
+.cropper-bg {
+    /*width: 600px;
+            height: 315px;*/
+}
+
+.imageToolbar, .videoToolbar, .quoteToolbar {
+    border: 1px solid #E4E4E4;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    top: 0;
+    left: 0;
+    float: left;
+    position: absolute;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+    margin: 0px 10px;
+}
+
+    .imageToolbar .small-icon, .videoToolbar .small-icon, .quoteToolbar .small-icon, .imageToolbar i {
+        cursor: pointer;
+        background-repeat: no-repeat;
+        width: 14px;
+        height: 20px;
+        display: block;
+        float: left;
+        margin-left: 5px;
+        background-position: center center;
+        padding: 3px 0px;
+        margin-right: 5px;
+    }
+
+        .imageToolbar .small-icon:hover, .imageToolbar .small-icon.active-icon, .videoToolbar .small-icon:hover, .videoToolbar .small-icon.active-icon, .quoteToolbar .small-icon:hover, .quoteToolbar .small-icon:active, .quoteToolbar .small-icon.active-icon {
+            background-color: #EEE;
+        }
+
+
+
+    .imageToolbar .icon-algin-left {
+    }
+
+    .imageToolbar .icon-algin-center {
+    }
+
+    .imageToolbar .icon-algin-right {
+        background-position: -153px -630px;
+    }
+
+    .imageToolbar .icon-algin-full-img {
+        background-position: -94px -1321px;
+        width: 20px;
+    }
+
+    .imageToolbar .icon-algin-edit-img {
+        background-position: -95px -1195px;
+        height: 14px;
+    }
+
+    .imageToolbar .icon-algin-close-img {
+        background-position: -95px -755px;
+    }
+
+    .imageToolbar .icon-algin-justify {
+        background-position: -153px -674px;
+    }
+
+    .imageToolbar .icon-ident {
+        background-position: -153px -803px;
+    }
+
+    .imageToolbar .icon-oudent {
+        background-position: -153px -846px;
+    }
+
+    .imageToolbar .icon-bold strong {
+        position: absolute;
+        top: -2px;
+        font-weight: bold;
+        font-size: 16px;
+        margin-left: 2px;
+    }
+
+    .imageToolbar .icon-italic em {
+        position: absolute;
+        top: -3px;
+        font-size: 16px;
+        font-style: italic;
+        margin-left: 4px;
+    }
+
+    .imageToolbar .icon-underline label {
+        position: absolute;
+        cursor: pointer;
+        top: -3px;
+        font-size: 16px;
+        text-decoration: underline;
+        margin-left: 1px;
+    }
+
+    .imageToolbar .icon-hyperlink {
+        width: 18px;
+    }
+
+    .imageToolbar .separate {
+        padding: 3px 0px !important;
+        width: 0px;
+        border-right: 1px dotted #000;
+        cursor: inherit;
+    }
+
+    .imageToolbar .icon-list-bullet {
+    }
+
+
+.embedYoutube {
+    width: 300px;
+}
+
+    .embedYoutube .action {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+#mceu_30, #mceu_30-body {
+    width: 75px;
+}
+
+#mceu_29-body .mce-ico {
+}
+
+.mce-gallery-item {
+}
+
+    .mce-gallery-item .mce-ico {
+        width: 75px;
+        height: 50px;
+    }
+.contain-editor {
+    position: relative;
+}
